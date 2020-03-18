@@ -1,6 +1,8 @@
 # kinesis-cli
 
-This CLI outputs newline separated records from kinesis.
+[![npm version](https://badge.fury.io/js/kinesis-get-records-cli.svg)](https://badge.fury.io/js/kinesis-get-records-cli)
+
+This CLI outputs newline separated records from kinesis. Written while developing another application as there did not seem to be a great way to simply dump records from all shards of a stream.
 
 ## Install
 
