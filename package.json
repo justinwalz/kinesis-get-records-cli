@@ -1,0 +1,35 @@
+{
+  "name": "kinesis-get-records-cli",
+  "version": "0.1.0",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "UNLICENSED",
+  "bin": {
+    "kinesis-get-records": "bin/kinesis-get-records-cli"
+  },
+  "scripts": {
+    "pretest": "npm run build",
+    "watch": "tsc -w --pretty",
+    "t": "jest lib",
+    "test": "npm run t",
+    "transpile": "rm -rf lib && tsc",
+    "build": "npm run transpile"
+  },
+  "dependencies": {
+    "@types/bluebird": "^3.5.30",
+    "@types/node": "^13.9.0",
+    "@types/yargs": "^15.0.4",
+    "aws-sdk": "^2.637.0",
+    "bluebird": "^3.7.2",
+    "typescript": "^3.8.3",
+    "yargs": "^15.3.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "prettier": {
+    "printWidth": 110,
+    "trailingComma": "all",
+    "singleQuote": true
+  }
+}
