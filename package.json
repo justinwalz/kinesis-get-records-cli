@@ -19,7 +19,7 @@
     "@types/bluebird": "^3.5.30",
     "@types/node": "^13.9.0",
     "@types/yargs": "^15.0.4",
-    "aws-sdk": "^2.637.0",
+    "aws-sdk": "^2.814.0",
     "bluebird": "^3.7.2",
     "typescript": "^3.8.3",
     "yargs": "^15.3.0"
